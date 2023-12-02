@@ -1,0 +1,27 @@
+Sequence of characters are expression
+if the sequence of charecter that forms a search pattern it is called Regular Expression
+it is caled as regex
+it is used to check if a string present in the specified search pattern
+RegEx module is a 're' named buit in pachkage
+
+meta characters
+===================
+[]=> set of characters
+\ => Signals a special sequence
+. => Any Character
+^ => to check whether a string starts with 
+$ => to check whether it ends with the given item
+* => to chek the nzero or more occurance
++ => To check one or more occurance is there for the string we inpit in the search pattern
+? => zero or more occurance
+{}=> exactly specify the number of occurances
+| => either ot
+()=> Capture and group
+
+4 Functions
+========================
+1. find all() -- returns a list of containing all matches
+2. search()
+3. split() -- returns a list where the string has been spit at each match
+4. sub() --  replaces the matches with the text of your choice
+ 

@@ -1,0 +1,8 @@
+Inheritence allows us to create a new class from an exsisting class
+Newly created class is sub class/derived class
+the super class is called the base class/parent class
+
+super() => this function is used in child to access all property and methods of parent
+
+
+Encapsulation

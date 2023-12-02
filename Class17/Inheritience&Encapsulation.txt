@@ -1,0 +1,17 @@
+Inheritence allows us to create a new class from an exsisting class
+Newly created class is sub class/derived class
+the super class is called the base class/parent class
+
+super() => this function is used in child to access all property and methods of parent
+
+
+Encapsulation
+To prevent data modification accidently
+
+Protected members
+=================
+They can be accessed only within the class. This can be accessed in the sub class
+
+Private members
+=================
+They are same as protected . However, this cannot be used even to child class

@@ -1,0 +1,65 @@
+OOPS IN PYTHON
+---------------
+The oops concept focuses on writing the reusable code.
+
+It is a widespread technique to solve the problem by creating objects.
+
+
+1. Class
+
+2. Method
+
+3. Object
+
+4. Inheritance
+
+5. Polymorphism
+
+6. Data abstraction
+
+7. Encapsulation
+
+	
+CLASS :
+
+
+The class can be defined as a collection of objects.
+
+It is a logical entity that has some specific attributes and methods.
+
+
+defined using class keyword
+
+syntax:
+
+class ClassName:     
+        <statement-1>     
+        .     
+        .      
+        <statement-N>    
+
+
+METHOD :
+
+The method is a function that is associated with an object.
+
+
+self parameter : The self is used to represent the instance of the class.
+
+With this keyword, you can access the attributes or variables and methods of the class in python.
+
+
+OBJECT :
+
+The object is an entity that has state and behavior.
+
+
+
+
+class car:  # created a class named "car"
+
+    def move(self):  # created a method or function named move
+        print("Car will move ; once get started")
+
+obj_car=car()  # created an object for class named "obj_car"
+obj_car.move() # calling a function and its behaviour
