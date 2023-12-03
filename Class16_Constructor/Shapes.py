@@ -2,7 +2,9 @@ import math
 class shape:
     def __init__(self,side):
         self.side=side
-class circle(shape):
+ 
+ 
+ class circle(shape):
         def area(self):
             print("This is inside circle function")
             area=[]

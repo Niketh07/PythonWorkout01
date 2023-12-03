@@ -1,9 +1,9 @@
 import random
 class Transaction:
     global main_bal
-    
-    def deposit(self,amt):
+    def __init__(self,amt):
         self.amt=amt
+    def deposit(self):
         main_bal+=self.amt
         print("Available balance",main_bal)
     def withdraw(self,amt):
@@ -17,7 +17,7 @@ class Transaction:
         print(f"Available Balance is {main_bal}")
 
 
-class Details():
+class Details:
     def accountopening(self):
         name=input("Enter your name: ")
         while True:
